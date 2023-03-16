@@ -13,65 +13,69 @@
         background-size: cover;">
         
         <script>
-                var map;
-                var currentPos = (0,0,0);
-                var direction = "North";
+                $(document).ready(function () {
+                        console.log("document ready!");
+                        var map;
+                        var currentPos = (0,0,0);
+                        var direction = "North";
+                        document.onkeydown = function (e) {
+                                console.log(e.which);
 
-                //or we can make a function changeHeading that tracks true direction based on pressing left or right arrow
-                //forward arrow would be moving forward, vice versa for backward arrow
-                //use result "heading" instead of direction in each key press case
-
-                document.onkeydown = function(e){
-                  console.log(e.which);
-                  switch(e.which){
-                      //left
-                      case 37;
-                      direction = "West"
-                      S('#dir').html(direction);
-                      S('body').CSS('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
-                      break;
-
-                      //up
-                      case 38;
-                      direction = "North"
-                      S('#dir').html(direction);
-                      S('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
-                      break;
-
-                      //right
-                      case 39;
-                      direction = "East"
-                      S('#dir').html(direction);
-                      S('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
-                      break;
-
-                      //down
-                      case 40;
-                      direction = "South"
-                      S('#dir').html(direction);
-                      S('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
-                      break;
-
-                      //leftclick equals move forward
-                      case 1;
-                      //check path
-                      //if next_pos exists in map then move
-                      if("NextPos" in map[currentPos][direction]){
-                        currentPos = map[currentPos][direction][NextPos];
-                        S('body').CSS('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
-                      }
-                      break;
-
-                    default: return;
-                  }
-                  e.preventDefault();
-                };
-
-                S.getJSON("map.json", function(data){
-                  console.log(data);
-                  map = data
-                  S("body").CSS('background-image', "url('" + data["(0,0,0"]['North']['Img'] + "')");
-                }
+                                //or we can make a function changeHeading that tracks true direction based on pressing left or right arrow
+                                //forward arrow would be moving forward, vice versa for backward arrow
+                                //use result "heading" instead of direction in each key press case
+                
+                                document.onkeydown = function(e){
+                                  console.log(e.which);
+                                  switch(e.which){
+                                      //left
+                                      case 37;
+                                      direction = "West"
+                                      $('#dir').html(direction);
+                                      $('body').CSS('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
+                                      break;
+                
+                                      //up
+                                      case 38;
+                                      direction = "North"
+                                      $('#dir').html(direction);
+                                      $('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
+                                      break;
+                
+                                      //right
+                                      case 39;
+                                      direction = "East"
+                                      $('#dir').html(direction);
+                                      $('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
+                                      break;
+                
+                                      //down
+                                      case 40;
+                                      direction = "South"
+                                      $('#dir').html(direction);
+                                      $('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
+                                      break;
+                
+                                      //leftclick equals move forward
+                                      case 1;
+                                      //check path
+                                      //if next_pos exists in map then move
+                                      if("NextPos" in map[currentPos][direction]){
+                                        currentPos = map[currentPos][direction][NextPos];
+                                        $('body').CSS('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
+                                      }
+                                      break;
+                
+                                    default: return;
+                                  }
+                                  e.preventDefault();
+                                };
+                
+                                $.getJSON("map.json", function(data){
+                                  console.log(data);
+                                  map = data
+                                  $("body").CSS('background-image', "url('" + data["(0,0,0"]['North']['Img'] + "')");
+                                }
         
         </script>
         
