@@ -71,11 +71,11 @@
                                   e.preventDefault();
                                 };
                 
-                                $.getJSON("map.json", function(data)){
+                                $.getJSON("map.json", function(data){
                                   console.log(data);
                                   map = data
                                   $("body").CSS('background-image', "url('" + data["(0,0,0"]['North']['Img'] + "')");
-                                }
+                                });
         
         </script>
         
