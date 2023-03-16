@@ -32,28 +32,28 @@
                                       case 37;
                                       direction = "West"
                                       $('#dir').html(direction);
-                                      $('body').CSS('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
+                                      $('body').css('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
                                       break;
                 
                                       //up
                                       case 38;
                                       direction = "North"
                                       $('#dir').html(direction);
-                                      $('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
+                                      $('body').css('background-image', "url('" + map[currentPos][direction]['img'] + "')");
                                       break;
                 
                                       //right
                                       case 39;
                                       direction = "East"
                                       $('#dir').html(direction);
-                                      $('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
+                                      $('body').css('background-image', "url('" + map[currentPos][direction]['img'] + "')");
                                       break;
                 
                                       //down
                                       case 40;
                                       direction = "South"
                                       $('#dir').html(direction);
-                                      $('body').CSS('background-image', "url('" + map[currentPos][direction]['img'] + "')");
+                                      $('body').css('background-image', "url('" + map[currentPos][direction]['img'] + "')");
                                       break;
                 
                                       //leftclick equals move forward
@@ -62,7 +62,7 @@
                                       //if next_pos exists in map then move
                                       if("NextPos" in map[currentPos][direction]){
                                         currentPos = map[currentPos][direction][NextPos];
-                                        $('body').CSS('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
+                                        $('body').css('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
                                       }
                                       break;
                 
@@ -74,7 +74,7 @@
                                 $.getJSON("map.json", function(data){
                                   console.log(data);
                                   map = data
-                                  $("body").CSS('background-image', "url('" + data["(0,0,0"]['North']['Img'] + "')");
+                                  $("body").css('background-image', "url('" + data["(0,0,0)"]['North']['Img'] + "')");
                                 });
         
         </script>
