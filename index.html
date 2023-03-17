@@ -12,7 +12,7 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;">
-        
+<p><b><mark>Direction</mark></b></p>
         <script>
                 $(document).ready(function () {
                         console.log("document ready!");
@@ -32,28 +32,34 @@
                                         //left
                                         case 37:
                                                 direction = "West";
-                                                $('#dir').html(direction);
+                                                //$('#div').html("West");
+                                                $("p").text("WEST");
+                                                //$(this).css({"font-weight": "bold","color": "yellow"});
                                                 $('body').css('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
                                                 break;
                                                
                                         //up
                                         case 38:
                                                 direction = "North";
-                                                $('#dir').html(direction);
+                                                //$('#div').html("North");
+                                                $("p").text("NORTH");
+                                                //$('body').append("<h3>NORTH</h3>");
                                                 $('body').css('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
                                                 break;
                 
                                         //right
                                         case 39:
                                                 direction = "East";
-                                                $('#dir').html(direction);
+                                                //$('#div').html("East");
+                                                $("p").text("EAST");
                                                 $('body').css('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
                                                 break;
                 
                                         //down
                                         case 40:
                                                 direction = "South";
-                                                $('#dir').html(direction);
+                                                //$('#div').html("South");
+                                                $("p").text("SOUTH");
                                                 $('body').css('background-image', "url('" + map[currentPos][direction]['Img'] + "')");
                                                 break;
                                         
