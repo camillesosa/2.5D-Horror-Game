@@ -114,7 +114,7 @@
       "NextPos" : "(0,1,1)"
     }, "West" : {
       "Img" : "2.5DGamePics/020W.jpeg",
-      "NextPos" : "(0,1,1)"
+      "NextPos" : "(-1,2,0)"
     }
   }, "(0,1,1)" : {
     "North" : {
