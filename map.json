@@ -243,12 +243,12 @@
       "Img" : "2.5DGamePics/-201E.jpeg"
     }, "South" : {
       "Img" : "2.5DGamePics/-201S.jpeg",
-      "NextPos" : "(-1,0,1)"
+      "NextPos" : "(-2,-1,1)"
     }, "West" : {
       "Img" : "2.5DGamePics/-201W.jpeg",
       "NextPos" : "(-3,0,1)"
     }
-  }, "(-1,0,1)" : {
+  }, "(-2,-1,1)" : {
     "North" : {
       "Img" : "2.5DGamePics/end.jpeg"
     }, "East" : {
