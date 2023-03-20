@@ -243,36 +243,12 @@
       "Img" : "2.5DGamePics/-301E.jpeg"
     }, "South" : {
       "Img" : "2.5DGamePics/-301S.jpeg",
-      "NextPos" : "(-2,-1,1)"
+      "NextPos" : "(-1,0,1)"
     }, "West" : {
       "Img" : "2.5DGamePics/-301W.jpeg",
       "NextPos" : "(-3,0,1)"
     }
-  }, "(-2,-1,1)" : {
-    "North" : {
-      "Img" : "2.5DGamePics/-3-11N.jpeg",
-      "NextPos" : "(-2,0,1)"
-    }, "East" : {
-      "Img" : "2.5DGamePics/-3-11E.jpeg"
-    }, "South" : {
-      "Img" : "2.5DGamePics/-3-11S.jpeg",
-      "NextPos" : "(-2,-2,1)"
-    }, "West" : {
-      "Img" : "2.5DGamePics/-3-11W.jpeg"
-    }
-  }, "(-2,-2,1)" : {
-    "North" : {
-      "Img" : "2.5DGamePics/-3-21N.jpeg",
-      "NextPos" : "(-2,-1,1)"
-    }, "East" : {
-      "Img" : "2.5DGamePics/-3-21E.jpeg",
-      "NextPos" : "(-1,-2,1)"
-    }, "South" : {
-      "Img" : "2.5DGamePics/-3-21S.jpeg"
-    }, "West" : {
-      "Img" : "2.5DGamePics/-3-21W.jpeg"
-    }
-  }, "(-1,-2,1)" : {
+  }, "(-1,0,1)" : {
     "North" : {
       "Img" : "2.5DGamePics/end.jpeg"
     }, "East" : {
