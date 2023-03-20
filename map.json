@@ -195,96 +195,84 @@
       "Img" : "2.5DGamePics/-331E.jpeg",
       "NextPos" : "(-2,3,1)"
     }, "South" : {
-      "Img" : "2.5DGamePics/-331S.jpeg"
+      "Img" : "2.5DGamePics/-331S.jpeg",
+      "NextPos" : "(-3,2,1)"
     }, "West" : {
-      "Img" : "2.5DGamePics/-331W.jpeg",
-      "NextPos" : "(-4,3,1)"
+      "Img" : "2.5DGamePics/-331W.jpeg"
     }
-  }, "(-4,3,1)" : {
+  }, "(-3,2,1)" : {
     "North" : {
-      "Img" : "2.5DGamePics/-431N.jpeg"
-    }, "East" : {
-      "Img" : "2.5DGamePics/-431E.jpeg",
+      "Img" : "2.5DGamePics/-431N.jpeg",
       "NextPos" : "(-3,3,1)"
+    }, "East" : {
+      "Img" : "2.5DGamePics/-431E.jpeg"
     }, "South" : {
       "Img" : "2.5DGamePics/-431S.jpeg",
-      "NextPos" : "(-4,2,1)"
+      "NextPos" : "(-3,1,1)"
     }, "West" : {
       "Img" : "2.5DGamePics/-431W.jpeg"
     }
-  }, "(-4,2,1)" : {
-    "North" : {
-      "Img" : "2.5DGamePics/-421N.jpeg",
-      "NextPos" : "(-4,3,1)"
-    }, "East" : {
-      "Img" : "2.5DGamePics/-421E.jpeg"
-    }, "South" : {
-      "Img" : "2.5DGamePics/-421S.jpeg",
-      "NextPos" : "(-4,1,1)"
-    }, "West" : {
-      "Img" : "2.5DGamePics/-421W.jpeg"
-    }
-  }, "(-4,1,1)" : {
+  }, "(-3,1,1)" : {
     "North" : {
       "Img" : "2.5DGamePics/-411N.jpeg",
-      "NextPos" : "(-4,2,1)"
+      "NextPos" : "(-3,2,1)"
     }, "East" : {
       "Img" : "2.5DGamePics/-411E.jpeg"
     }, "South" : {
       "Img" : "2.5DGamePics/-411S.jpeg",
-      "NextPos" : "(-4,0,1)"
+      "NextPos" : "(-3,0,1)"
     }, "West" : {
       "Img" : "2.5DGamePics/-411W.jpeg"
     }
-  }, "(-4,0,1)" : {
+  }, "(-3,0,1)" : {
     "North" : {
       "Img" : "2.5DGamePics/-401N.jpeg",
-      "NextPos" : "(-4,1,1)"
+      "NextPos" : "(-3,1,1)"
     }, "East" : {
       "Img" : "2.5DGamePics/-401E.jpeg",
-      "NextPos" : "(-3,0,1)"
+      "NextPos" : "(-2,0,1)"
     }, "South" : {
       "Img" : "2.5DGamePics/-401S.jpeg"
     }, "West" : {
       "Img" : "2.5DGamePics/-401W.jpeg"
     }
-  }, "(-3,0,1)" : {
+  }, "(-2,0,1)" : {
     "North" : {
       "Img" : "2.5DGamePics/-301N.jpeg"
     }, "East" : {
       "Img" : "2.5DGamePics/-301E.jpeg"
     }, "South" : {
       "Img" : "2.5DGamePics/-301S.jpeg",
-      "NextPos" : "(-3,-1,1)"
+      "NextPos" : "(-2,-1,1)"
     }, "West" : {
       "Img" : "2.5DGamePics/-301W.jpeg",
-      "NextPos" : "(-4,0,1)"
+      "NextPos" : "(-3,0,1)"
     }
-  }, "(-3,-1,1)" : {
+  }, "(-2,-1,1)" : {
     "North" : {
       "Img" : "2.5DGamePics/-3-11N.jpeg",
-      "NextPos" : "(-3,0,1)"
+      "NextPos" : "(-2,0,1)"
     }, "East" : {
       "Img" : "2.5DGamePics/-3-11E.jpeg"
     }, "South" : {
       "Img" : "2.5DGamePics/-3-11S.jpeg",
-      "NextPos" : "(-3,-2,1)"
+      "NextPos" : "(-2,-2,1)"
     }, "West" : {
       "Img" : "2.5DGamePics/-3-11W.jpeg"
     }
-  }, "(-3,-2,1)" : {
+  }, "(-2,-2,1)" : {
     "North" : {
       "Img" : "2.5DGamePics/-3-21N.jpeg",
-      "NextPos" : "(-3,-1,1)"
+      "NextPos" : "(-2,-1,1)"
     }, "East" : {
       "Img" : "2.5DGamePics/-3-21E.jpeg",
-      "NextPos" : "(-2,-2,1)"
+      "NextPos" : "(-1,-2,1)"
     }, "South" : {
       "Img" : "2.5DGamePics/-3-21S.jpeg"
     }, "West" : {
       "Img" : "2.5DGamePics/-3-21W.jpeg"
     }
-  }, "(-2,-2,1)" : {
+  }, "(-1,-2,1)" : {
     "North" : {
       "Img" : "2.5DGamePics/end.jpeg"
     }, "East" : {
